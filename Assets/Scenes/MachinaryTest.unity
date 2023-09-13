@@ -1414,7 +1414,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerData: {fileID: 11400000, guid: e6de6150ab38ff74b9ee0fa32028adf7, type: 2}
   FirePoint: {fileID: 200437127}
-  BulletPreFab: {fileID: 1368327290923268237}
+  BulletPreFab: {fileID: 7566951941719237483, guid: 3ee84b257c1323e4994c0b10b5a0205b, type: 3}
   _groundCheckPoint: {fileID: 659905105}
   _groundCheckSize: {x: 0.49, y: 0.03}
   _frontWallCheckPoint: {fileID: 1987571296}
@@ -32786,11 +32786,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ee84b257c1323e4994c0b10b5a0205b, type: 3}
---- !u!1 &1368327290923268237 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7566951941719237483, guid: 3ee84b257c1323e4994c0b10b5a0205b, type: 3}
-  m_PrefabInstance: {fileID: 1368327290923268236}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1686929792411764363
 GameObject:
   m_ObjectHideFlags: 0
