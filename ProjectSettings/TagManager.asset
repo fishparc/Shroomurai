@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - ground
+  - Obstacle
+  - BombPickup
+  - Enemy
+  - ExplosionFX
+  - Bullet
+  - HealthBar
+  - Movable
+  - destructByExplode
+  - Environment
+  - Creature
+  - Explosive
+  - Mud
+  - WindArea
+  - FireBall
+  - WoodPillar
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Environment
+  - Water
+  - UI
+  - Ground
+  - 
+  - Player
+  - Projectile
+  - AirMovable
+  - WetDirt
+  - Slope
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Environment
+    uniqueID: 652518263
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 355087233
+    locked: 0
