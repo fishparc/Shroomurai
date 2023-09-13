@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01c4d7cc45810da41ba947e14b04e51e, type: 3}
+  m_Script: {fileID: 11500000, guid: 92351b15781e63d4eacdabe4dab13728, type: 3}
   m_Name: Celeste Style
   m_EditorClassIdentifier: 
   gravityStrength: -77.77777
@@ -69,7 +69,7 @@ MonoBehaviour:
   fireballInputBufferTime: 0.1
   fireballCooldown: 0.5
   maxHoldTime: 2
-  holdtimeScale: 0.25
+  fireballHoldtimeScale: 0.25
   fireballDuration: 0.28
   fireballDrag: 3
   airPushInputBufferTime: 0.1
@@ -77,3 +77,13 @@ MonoBehaviour:
   airPushTime: 0.12
   airPushDuration: 0.28
   airPushDrag: 8
+  meleeInputBufferTime: 0.1
+  sneakStrikeCooldown: 0.3
+  sneakStrikeTime: 0.1
+  sneakStrikeDuration: 0.1
+  sneakStrikeDrag: 5
+  SlashCooldown: 0.5
+  maxSlashHoldTime: 1
+  slashHoldtimeScale: 0.25
+  SlashDuration: 0.5
+  SlashDrag: 2
