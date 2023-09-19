@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6e73076057e7e0842992a0cf4965c44c
+guid: df140da436f2f774a8d9ca95b9e9b52c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -110,85 +110,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pigbloodcake_0
+      name: Shroomurai_Idle_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1
         y: 0
-        width: 70
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 48
+        height: 72
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a44f740bf7bce3a4b9fa3c81e22cc182
-      internalID: -1207597900
+      spriteID: 26a0ed856b94cab4e8b635fef7b83c7e
+      internalID: -1198973355
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pigbloodcake_1
+      name: Shroomurai_Idle_1
       rect:
         serializedVersion: 2
-        x: 70
+        x: 51
         y: 0
-        width: 70
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 48
+        height: 72
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ec6f8234e438a744ae237b6a09e3534
-      internalID: -1701735295
+      spriteID: 18d42234b3e5ccc4e9ae32233ea4d8e9
+      internalID: 98719555
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pigbloodcake_2
+      name: Shroomurai_Idle_2
       rect:
         serializedVersion: 2
-        x: 140
+        x: 101
         y: 0
-        width: 70
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 48
+        height: 70
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd5ef93bc8b2dea4081a206c59a54182
-      internalID: 1889042082
+      spriteID: 259c5a5dbfbf4fd4eb4f40401ea0245d
+      internalID: 1213962534
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pigbloodcake_3
+      name: Shroomurai_Idle_3
       rect:
         serializedVersion: 2
-        x: 210
+        x: 151
         y: 0
-        width: 70
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 48
+        height: 69
+      alignment: 8
+      pivot: {x: 1, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d433ceb5703780049aa54578647815af
-      internalID: 1930420725
+      spriteID: 0cac9b85975226b4e894ac2b5cbcd7a0
+      internalID: 916985130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shroomurai_Idle_4
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 0
+        width: 48
+        height: 69
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7b7e5d7704640843b64f33853082142
+      internalID: 1249899123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shroomurai_Idle_5
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 0
+        width: 48
+        height: 71
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec596b98d0274c44bc1149a5565718a
+      internalID: -1080807002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shroomurai_Idle_6
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 0
+        width: 48
+        height: 72
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 724490899feb7f541a52e6ccb4d4e2e7
+      internalID: 648192052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shroomurai_Idle_7
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 0
+        width: 48
+        height: 72
+      alignment: 8
+      pivot: {x: 1, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8741ac887bbdc314d8b190b1f2fb186a
+      internalID: -279175367
       vertices: []
       indices: 
       edges: []
@@ -204,10 +288,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pigbloodcake_0: -1207597900
-      pigbloodcake_1: -1701735295
-      pigbloodcake_2: 1889042082
-      pigbloodcake_3: 1930420725
+      Shroomurai_Idle_0: -1198973355
+      Shroomurai_Idle_1: 98719555
+      Shroomurai_Idle_2: 1213962534
+      Shroomurai_Idle_3: 916985130
+      Shroomurai_Idle_4: 1249899123
+      Shroomurai_Idle_5: -1080807002
+      Shroomurai_Idle_6: 648192052
+      Shroomurai_Idle_7: -279175367
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
