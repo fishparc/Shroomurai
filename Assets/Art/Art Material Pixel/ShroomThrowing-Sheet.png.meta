@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: df140da436f2f774a8d9ca95b9e9b52c
+guid: 4ebc49d0037e09d44b41e6baa7099f47
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,54 +110,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Shroomurai_Idle_0
+      name: ShroomThrowing-Sheet_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 2
         y: 0
-        width: 48
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 26a0ed856b94cab4e8b635fef7b83c7e
-      internalID: -1198973355
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shroomurai_Idle_1
-      rect:
-        serializedVersion: 2
-        x: 51
-        y: 0
-        width: 48
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 18d42234b3e5ccc4e9ae32233ea4d8e9
-      internalID: 98719555
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shroomurai_Idle_2
-      rect:
-        serializedVersion: 2
-        x: 101
-        y: 0
-        width: 48
+        width: 70
         height: 70
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -166,17 +124,38 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 259c5a5dbfbf4fd4eb4f40401ea0245d
-      internalID: 1213962534
+      spriteID: ebe1a10d81999b342a5daf10a09301af
+      internalID: -1779001026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shroomurai_Idle_3
+      name: ShroomThrowing-Sheet_1
       rect:
         serializedVersion: 2
-        x: 151
+        x: 86
+        y: 0
+        width: 60
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1f105395dfe504eb59c99a9ac2b948
+      internalID: -1295401905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ShroomThrowing-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 165
         y: 0
         width: 48
         height: 69
@@ -187,92 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0cac9b85975226b4e894ac2b5cbcd7a0
-      internalID: 916985130
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shroomurai_Idle_4
-      rect:
-        serializedVersion: 2
-        x: 201
-        y: 0
-        width: 48
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e7b7e5d7704640843b64f33853082142
-      internalID: 1249899123
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shroomurai_Idle_5
-      rect:
-        serializedVersion: 2
-        x: 251
-        y: 0
-        width: 48
-        height: 71
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bec596b98d0274c44bc1149a5565718a
-      internalID: -1080807002
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shroomurai_Idle_6
-      rect:
-        serializedVersion: 2
-        x: 301
-        y: 0
-        width: 48
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 724490899feb7f541a52e6ccb4d4e2e7
-      internalID: 648192052
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shroomurai_Idle_7
-      rect:
-        serializedVersion: 2
-        x: 351
-        y: 0
-        width: 48
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8741ac887bbdc314d8b190b1f2fb186a
-      internalID: -279175367
+      spriteID: 4417be2f69e53b24a978e1355b245fe6
+      internalID: -58598699
       vertices: []
       indices: 
       edges: []
@@ -288,14 +183,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Shroomurai_Idle_0: -1198973355
-      Shroomurai_Idle_1: 98719555
-      Shroomurai_Idle_2: 1213962534
-      Shroomurai_Idle_3: 916985130
-      Shroomurai_Idle_4: 1249899123
-      Shroomurai_Idle_5: -1080807002
-      Shroomurai_Idle_6: 648192052
-      Shroomurai_Idle_7: -279175367
+      ShroomThrowing-Sheet_0: -1779001026
+      ShroomThrowing-Sheet_1: -1295401905
+      ShroomThrowing-Sheet_2: -58598699
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

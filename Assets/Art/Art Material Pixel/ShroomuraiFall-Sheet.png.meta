@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: df140da436f2f774a8d9ca95b9e9b52c
+guid: 3e60874559970834bb11c2af8768b3f0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,117 +110,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Shroomurai_Idle_0
+      name: ShroomuraiJump-Sheet_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 0
-        width: 48
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 26a0ed856b94cab4e8b635fef7b83c7e
-      internalID: -1198973355
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shroomurai_Idle_1
-      rect:
-        serializedVersion: 2
-        x: 51
-        y: 0
-        width: 48
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 18d42234b3e5ccc4e9ae32233ea4d8e9
-      internalID: 98719555
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shroomurai_Idle_2
-      rect:
-        serializedVersion: 2
-        x: 101
-        y: 0
-        width: 48
-        height: 70
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 259c5a5dbfbf4fd4eb4f40401ea0245d
-      internalID: 1213962534
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shroomurai_Idle_3
-      rect:
-        serializedVersion: 2
-        x: 151
-        y: 0
-        width: 48
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0cac9b85975226b4e894ac2b5cbcd7a0
-      internalID: 916985130
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shroomurai_Idle_4
-      rect:
-        serializedVersion: 2
-        x: 201
-        y: 0
-        width: 48
-        height: 69
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e7b7e5d7704640843b64f33853082142
-      internalID: 1249899123
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shroomurai_Idle_5
-      rect:
-        serializedVersion: 2
-        x: 251
-        y: 0
-        width: 48
+        x: 2
+        y: 1
+        width: 52
         height: 71
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -229,19 +124,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bec596b98d0274c44bc1149a5565718a
-      internalID: -1080807002
+      spriteID: 6dbfa16e15e3e8f4d8efcabc81e6aee7
+      internalID: 980911598
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Shroomurai_Idle_6
+      name: ShroomuraiJump-Sheet_1
       rect:
         serializedVersion: 2
-        x: 301
+        x: 58
         y: 0
-        width: 48
+        width: 52
         height: 72
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -250,29 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 724490899feb7f541a52e6ccb4d4e2e7
-      internalID: 648192052
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Shroomurai_Idle_7
-      rect:
-        serializedVersion: 2
-        x: 351
-        y: 0
-        width: 48
-        height: 72
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8741ac887bbdc314d8b190b1f2fb186a
-      internalID: -279175367
+      spriteID: 063dcde1b9167d34eb51865a587ff4b2
+      internalID: -1223260920
       vertices: []
       indices: 
       edges: []
@@ -288,14 +162,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Shroomurai_Idle_0: -1198973355
-      Shroomurai_Idle_1: 98719555
-      Shroomurai_Idle_2: 1213962534
-      Shroomurai_Idle_3: 916985130
-      Shroomurai_Idle_4: 1249899123
-      Shroomurai_Idle_5: -1080807002
-      Shroomurai_Idle_6: 648192052
-      Shroomurai_Idle_7: -279175367
+      ShroomuraiJump-Sheet_0: 980911598
+      ShroomuraiJump-Sheet_1: -1223260920
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
