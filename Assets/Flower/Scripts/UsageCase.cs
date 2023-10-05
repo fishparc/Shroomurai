@@ -50,6 +50,18 @@ public class UsageCase : MonoBehaviour
             }
         }
 
+        //if (!isTalking)
+        //{
+        //    flowerSys.Stop();
+        //    flowerSys.RemoveDialog();
+        //}
+        //else
+        //{
+        //    flowerSys.Resume();
+        //    flowerSys.SetupDialog();
+        //}
+
+
         if (!isGameEnd)
         {
             if(Input.GetKeyDown(KeyCode.Space)){
