@@ -1,0 +1,2811 @@
+fileFormatVersion: 2
+guid: f93ffbea6bac59447b2349058174c3a5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 750
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62aa545a6ddabae4a9d70d22a676a015
+      internalID: -2116740304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 750
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d30d014a6ec69b341bcd3c2969d593bb
+      internalID: 562388428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 750
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cae265e86de711b4cbac54cd0545a5b8
+      internalID: -539628522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 750
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414febe9bb3ef0e42ad4c21e3e2f7f4c
+      internalID: 1758139198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 750
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15f38da23907758458418712ea339544
+      internalID: -1232064583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 750
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3779af77c543ccf40b42d8b95400d604
+      internalID: 682001014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 700
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c82674bcea14a24fa8c571facbb746b
+      internalID: 1166109546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 700
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd21fe119e74a1d4ab60f75b1a4f65e9
+      internalID: 53366787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 700
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0451f8cf5ca254fb703dfb35cf32ee
+      internalID: -1645508459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 700
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b5065832badb24e9816ea5d142a5b2
+      internalID: -1398381702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 700
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d860c1d51c18a4f8e51463687db014
+      internalID: -1493279029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 700
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40a591887ccb06459acb8c582609300
+      internalID: 1257874451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 700
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67e837e2023febc4592f8087fd540c65
+      internalID: 1532545512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 700
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 807aa9179635ffc44acbdb179b45bb2b
+      internalID: -1963184084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 650
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eeb171676eb27a458f6fb0fa55be7d9
+      internalID: -1327612843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 650
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19533767fc3e10498b172b603931487
+      internalID: -602320914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 650
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2d3631710cecc4e81d5e3a1632f035
+      internalID: 488210135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 650
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a36b28716dab6342a274a5b57b74666
+      internalID: 1769239759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 650
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658b705d9115b694e8de195a957778f4
+      internalID: -1159015096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 650
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3128b65f120bfa2479dad3d8b88332dd
+      internalID: 552409150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 650
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99fdd69288ae6c74491676162e6c5c48
+      internalID: -1978588869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 650
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d65899d7f2df3f40abaeb9b1218d06b
+      internalID: -110182618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 650
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbde012e044be1f4e9d4f59bc823fc8a
+      internalID: 546439123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 650
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24400a57f8487c74fb1e2b3d00cb80da
+      internalID: 1126945302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 650
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa00c8a303ef644091c920e4943bd64
+      internalID: -545887610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 650
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c60d2efb381acf4449b392a3fb4b13ca
+      internalID: 907207812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 650
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eba0c320b220ad64395b0d0f47030ebf
+      internalID: 2057715334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 650
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d085577608cb0c6408563f62ed30489f
+      internalID: 562126287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 650
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10579e9cfff3444da345b6b8191d3de
+      internalID: -840213254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 650
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2617c23195b9b1f46a5cac295f3736a0
+      internalID: 1408072600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 600
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3454b1a11714c9343a77c728183b53ae
+      internalID: -1690545384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 600
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490e5751edf062648a1b4e557e2be706
+      internalID: -1498704107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 600
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de1b24fcb6cc1654f96f6299712b5722
+      internalID: -1046447818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 550
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb2aa68f6c63c3a46a7aa049dc2f1023
+      internalID: -532099414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 550
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bfcb62c281dc2840a97866d1b585c46
+      internalID: -721775200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 550
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43b1a5d9b99cc59439644c9b9e2a7c78
+      internalID: -902183863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e4bd25a69506d448c58d8514663a60
+      internalID: 117534575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 500
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4227c38139e560e42841d0252ee9ca7f
+      internalID: 426942631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 500
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed2f02961bd21947925c37681ba9eca
+      internalID: 2008314932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 450
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa4fab79a3d469244835f63f225b51ef
+      internalID: -2096793041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 450
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec5708c3c5c183642b99fd7995838891
+      internalID: 958843657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 450
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2145bb2dcf045dc46a49f90741cc07c3
+      internalID: 186189388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 450
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7033c9fbb3e974749b3b445f7e40c728
+      internalID: -1071583902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 309df4c74b4e75943903621650a5a7aa
+      internalID: 311960977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 350
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad8f138404bf994e8170b47da18c3e7
+      internalID: 1762329799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 350
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b7ef7cac0275bf428cf9369fb647077
+      internalID: 900704212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 350
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 460b7757b5216ec448ffaed4e8f2e7de
+      internalID: -1003854507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 350
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6251d64885fd34a4fa9d98653c623185
+      internalID: -1890099938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 350
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2aa7c1fcf301f24e988baa5632bd8e8
+      internalID: -1423045426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 350
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97cf369f5a0a1e4989e1b9ae6252406
+      internalID: 301352511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 350
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea50debd8b7e154a9c2b2bbe13eb39d
+      internalID: -1194651266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 300
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889480e55f0610040a3744d35ce3dea8
+      internalID: 1878339776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 300
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a0ba1dd820ad904aa8982046c078d00
+      internalID: 482825169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 300
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62b5c514f55fa86458cc5dccc7cef70a
+      internalID: -1393527068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 250
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0400720e003a0cd488165e922a228246
+      internalID: 1978380938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 250
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f9143487d1099847a123d2fc4667a8c
+      internalID: 976793015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bc3a20c05c3edf4dbcf8b0c0c3726c0
+      internalID: -1589656431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 200
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e962dec8530341341915430ddf64ae8d
+      internalID: -1195410381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 200
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0790c99e5dc24fd4e8d7ff276280728b
+      internalID: 759145413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb8c4a56a7d37441be55aa593ce601b
+      internalID: 1527171932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 150
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b12984fda60f54f8862b58081c3593
+      internalID: -577553993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 150
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c815f1c0230ff8847af6dda5c6a51f8c
+      internalID: 1975320017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 150
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96fd9ec6e6c59814bbbcbf7c005f182e
+      internalID: -359483532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 150
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81bc097a567c60a42b841d1793a4f7a1
+      internalID: -1499844426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 150
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3484da67411802845bfdce3e599235a2
+      internalID: 1165426031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 150
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff46548437480464aaad8e79ebb8614a
+      internalID: 1536967452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 150
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907ebe4ee9e05fa4383b67a1619ff113
+      internalID: 798613098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 150
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd9b14519eaf6042835e83ba9bb9616
+      internalID: -723517612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 150
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af1b705efab1bfb418af7c9fb4787bbd
+      internalID: 1786572883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 150
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06a4e67f538409b43b33ae994a2e6171
+      internalID: -562984994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 150
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2188666305983a47a3c6f2328afa88a
+      internalID: 696186019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 150
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c1fb73108183b4280f1340c8b6037a
+      internalID: 225505275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 150
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41ebea9ad3ab16242b9bd6cf42b5e10a
+      internalID: 1529990223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 150
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68b0e4058f3921149ac2992931b456d5
+      internalID: -572966728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 150
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 787c91d2a51cd4d4380633fd1940d0a1
+      internalID: 1507341095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d718c1427531f93479a4141552098439
+      internalID: -960668536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 100
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f9cf46b9b43e248904e7a7a5bb5b68
+      internalID: -951066846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 100
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc894a5f726519a46bf2a00488083127
+      internalID: 1512372349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 100
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53d6420cd0dec82479085292d87dd610
+      internalID: -988210990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 100
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c59948f6307bd4aa3968d9d0bf4a92
+      internalID: -1685552516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 100
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9cbf499e68fe5439f8b4f66455dc61
+      internalID: -1574686630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 100
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb491134c3c2294458ce1c947a5e0074
+      internalID: -457673908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 100
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e608cecc97c4c45bcc68d4958cef7f
+      internalID: 918745091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_83
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 100
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91a61398d6711f54c89928bc981e627c
+      internalID: 1198546365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_84
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 100
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e7f49e7e0d47647b088d1bd15aab8a
+      internalID: 1111074474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_85
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 100
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea9df430eb7105c4baa60f9ec2d9fba3
+      internalID: -1994271445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_86
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 100
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d712e9a6fada94389af7ab11ceb377
+      internalID: -255771735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_87
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 100
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d45055f7c0669f4087bd1a68df22866
+      internalID: 86255779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_88
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 100
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 592aff93174388e4e81b9a7a0c0f91d1
+      internalID: -1076961706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_89
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 100
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc047f256b6b604382db64750670ae4
+      internalID: 2051540223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_90
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 100
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ececaef6ab4e820479e4ef3275f27af8
+      internalID: 1970686616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_91
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 100
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ee4a7abb92250469bfd4d020c8fac3
+      internalID: 59767081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_92
+      rect:
+        serializedVersion: 2
+        x: 1360
+        y: 100
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a7598db12d9364e82bee3c8b86ed7d
+      internalID: -425471987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_93
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 100
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7422eec3f777a594b80ca38151e6f848
+      internalID: 587539078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_94
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 100
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2457d453b1c28ae479d2cae81711e4fa
+      internalID: 196202723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_95
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 100
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55562d64bd3cbd42801608c9c8dab51
+      internalID: 2082777781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_96
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 100
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4add8a678d19b9844836a91d6eaf1f9f
+      internalID: -775830178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_97
+      rect:
+        serializedVersion: 2
+        x: 1760
+        y: 100
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69773674f8c15844bc2260ad463263a
+      internalID: 1063192289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_98
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 50
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40c4310843a095e499b284759eb2bd51
+      internalID: -559161428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_99
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 50
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d371af7171074884997ce5177f998fef
+      internalID: -1220737900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_100
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 50
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e3413574fd28104cb72c19ec34ebbf8
+      internalID: -197665308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_101
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 50
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8fb9801a6b5cc40b7d48a32cabc92f
+      internalID: 1514812646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_102
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 50
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96540aab76fe2294dae568f6f9b9d955
+      internalID: -1700117660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_103
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 50
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08a3a3057d43c7449bf9b5640ea005e7
+      internalID: 689509066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_104
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 50
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7fa953cc66359f49ab396474904be03
+      internalID: 1490842209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 003a5f82a4bf725488e069cde787f7da
+      internalID: 232544956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_106
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65d94a73c446ae64e8e7f9ac33a2cc2f
+      internalID: 2124462119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_107
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342c28a77bb033448ae8f5c1f8afff08
+      internalID: -922355753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_108
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 0
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634ba028e15a6e246ba109a7930de5bc
+      internalID: -1603432281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_109
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb5b971f0eac56141b51a43b4f8727d7
+      internalID: -376787762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_110
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2efccf46f6c38224891ee772b0bd2275
+      internalID: 943701758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_111
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc32ec02fd8de3d42b85d9f7a898659b
+      internalID: -538835060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_112
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 0
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 817830d21b9fb27479233992ee186f56
+      internalID: 1260596372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_113
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f721e7b8062c3b4299d6440a35dd573
+      internalID: 769182845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_114
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 0
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111fdc9fca6d26a419ed53b05bd42ef6
+      internalID: -593150583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_115
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5db05ed6f23e31545b1a4b9b5b45a7a9
+      internalID: -2043830398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_116
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 0
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2772dc1141d272f4f90d77b9c3d95241
+      internalID: 910021561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_117
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d239e3acf972464fa33ad2edf4f3a4c
+      internalID: -586852535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_118
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 0
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0c4f2568ae8bd4a849c70551ead55b
+      internalID: -161551244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_119
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 0
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1327505b5cc92944b754d060cf33d6a
+      internalID: 265138092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_120
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366c29d028a04f6468c3c4b998faf1f4
+      internalID: -1108392558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CuteShroom-Sheet_121
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 0
+        width: 80
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04995fa5dc38ac24e8adda6ae7e63792
+      internalID: -1928225531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CuteShroom-Sheet_0: -2116740304
+      CuteShroom-Sheet_1: 562388428
+      CuteShroom-Sheet_10: -1493279029
+      CuteShroom-Sheet_100: -197665308
+      CuteShroom-Sheet_101: 1514812646
+      CuteShroom-Sheet_102: -1700117660
+      CuteShroom-Sheet_103: 689509066
+      CuteShroom-Sheet_104: 1490842209
+      CuteShroom-Sheet_105: 232544956
+      CuteShroom-Sheet_106: 2124462119
+      CuteShroom-Sheet_107: -922355753
+      CuteShroom-Sheet_108: -1603432281
+      CuteShroom-Sheet_109: -376787762
+      CuteShroom-Sheet_11: 1257874451
+      CuteShroom-Sheet_110: 943701758
+      CuteShroom-Sheet_111: -538835060
+      CuteShroom-Sheet_112: 1260596372
+      CuteShroom-Sheet_113: 769182845
+      CuteShroom-Sheet_114: -593150583
+      CuteShroom-Sheet_115: -2043830398
+      CuteShroom-Sheet_116: 910021561
+      CuteShroom-Sheet_117: -586852535
+      CuteShroom-Sheet_118: -161551244
+      CuteShroom-Sheet_119: 265138092
+      CuteShroom-Sheet_12: 1532545512
+      CuteShroom-Sheet_120: -1108392558
+      CuteShroom-Sheet_121: -1928225531
+      CuteShroom-Sheet_13: -1963184084
+      CuteShroom-Sheet_14: -1327612843
+      CuteShroom-Sheet_15: -602320914
+      CuteShroom-Sheet_16: 488210135
+      CuteShroom-Sheet_17: 1769239759
+      CuteShroom-Sheet_18: -1159015096
+      CuteShroom-Sheet_19: 552409150
+      CuteShroom-Sheet_2: -539628522
+      CuteShroom-Sheet_20: -1978588869
+      CuteShroom-Sheet_21: -110182618
+      CuteShroom-Sheet_22: 546439123
+      CuteShroom-Sheet_23: 1126945302
+      CuteShroom-Sheet_24: -545887610
+      CuteShroom-Sheet_25: 907207812
+      CuteShroom-Sheet_26: 2057715334
+      CuteShroom-Sheet_27: 562126287
+      CuteShroom-Sheet_28: -840213254
+      CuteShroom-Sheet_29: 1408072600
+      CuteShroom-Sheet_3: 1758139198
+      CuteShroom-Sheet_30: -1690545384
+      CuteShroom-Sheet_31: -1498704107
+      CuteShroom-Sheet_32: -1046447818
+      CuteShroom-Sheet_33: -532099414
+      CuteShroom-Sheet_34: -721775200
+      CuteShroom-Sheet_35: -902183863
+      CuteShroom-Sheet_36: 117534575
+      CuteShroom-Sheet_37: 426942631
+      CuteShroom-Sheet_38: 2008314932
+      CuteShroom-Sheet_39: -2096793041
+      CuteShroom-Sheet_4: -1232064583
+      CuteShroom-Sheet_40: 958843657
+      CuteShroom-Sheet_41: 186189388
+      CuteShroom-Sheet_42: -1071583902
+      CuteShroom-Sheet_43: 311960977
+      CuteShroom-Sheet_44: 1762329799
+      CuteShroom-Sheet_45: 900704212
+      CuteShroom-Sheet_46: -1003854507
+      CuteShroom-Sheet_47: -1890099938
+      CuteShroom-Sheet_48: -1423045426
+      CuteShroom-Sheet_49: 301352511
+      CuteShroom-Sheet_5: 682001014
+      CuteShroom-Sheet_50: -1194651266
+      CuteShroom-Sheet_51: 1878339776
+      CuteShroom-Sheet_52: 482825169
+      CuteShroom-Sheet_53: -1393527068
+      CuteShroom-Sheet_54: 1978380938
+      CuteShroom-Sheet_55: 976793015
+      CuteShroom-Sheet_56: -1589656431
+      CuteShroom-Sheet_57: -1195410381
+      CuteShroom-Sheet_58: 759145413
+      CuteShroom-Sheet_59: 1527171932
+      CuteShroom-Sheet_6: 1166109546
+      CuteShroom-Sheet_60: -577553993
+      CuteShroom-Sheet_61: 1975320017
+      CuteShroom-Sheet_62: -359483532
+      CuteShroom-Sheet_63: -1499844426
+      CuteShroom-Sheet_64: 1165426031
+      CuteShroom-Sheet_65: 1536967452
+      CuteShroom-Sheet_66: 798613098
+      CuteShroom-Sheet_67: -723517612
+      CuteShroom-Sheet_68: 1786572883
+      CuteShroom-Sheet_69: -562984994
+      CuteShroom-Sheet_7: 53366787
+      CuteShroom-Sheet_70: 696186019
+      CuteShroom-Sheet_71: 225505275
+      CuteShroom-Sheet_72: 1529990223
+      CuteShroom-Sheet_73: -572966728
+      CuteShroom-Sheet_74: 1507341095
+      CuteShroom-Sheet_75: -960668536
+      CuteShroom-Sheet_76: -951066846
+      CuteShroom-Sheet_77: 1512372349
+      CuteShroom-Sheet_78: -988210990
+      CuteShroom-Sheet_79: -1685552516
+      CuteShroom-Sheet_8: -1645508459
+      CuteShroom-Sheet_80: -1574686630
+      CuteShroom-Sheet_81: -457673908
+      CuteShroom-Sheet_82: 918745091
+      CuteShroom-Sheet_83: 1198546365
+      CuteShroom-Sheet_84: 1111074474
+      CuteShroom-Sheet_85: -1994271445
+      CuteShroom-Sheet_86: -255771735
+      CuteShroom-Sheet_87: 86255779
+      CuteShroom-Sheet_88: -1076961706
+      CuteShroom-Sheet_89: 2051540223
+      CuteShroom-Sheet_9: -1398381702
+      CuteShroom-Sheet_90: 1970686616
+      CuteShroom-Sheet_91: 59767081
+      CuteShroom-Sheet_92: -425471987
+      CuteShroom-Sheet_93: 587539078
+      CuteShroom-Sheet_94: 196202723
+      CuteShroom-Sheet_95: 2082777781
+      CuteShroom-Sheet_96: -775830178
+      CuteShroom-Sheet_97: 1063192289
+      CuteShroom-Sheet_98: -559161428
+      CuteShroom-Sheet_99: -1220737900
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
