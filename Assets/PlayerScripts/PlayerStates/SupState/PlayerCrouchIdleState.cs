@@ -13,6 +13,12 @@ public class PlayerCrouchIdleState : PlayerGroundedState
         base.Enter();
         
         player.CrouchIdleMove();//laydown Vx=0
+        
+    }
+    public override void Exit()
+    {
+         base.Exit();
+       // player.CollidBoxRestore();
     }
 
     public override void LogicUpdate()

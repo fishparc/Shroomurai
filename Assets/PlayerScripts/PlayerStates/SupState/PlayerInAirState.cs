@@ -103,7 +103,9 @@ public class PlayerInAirState : PlayerState
     public override void PhysicsUpdate()
     {
         base.PhysicsUpdate();
-        player.InAirMove(1, xInput, playerData.runMaxSpeed, playerData.runAccelAmount * playerData.accelInAir, playerData.runDeccelAmount * playerData.deccelInAir, playerData.jumpHangTimeThreshold, playerData.jumpHangAccelerationMult, playerData.jumpHangMaxSpeedMult, playerData.doConserveMomentum, IsJumping || player.WallJumpState.IsWallJumping);
+        player.InAirMove(1, xInput, playerData.runMaxSpeed, playerData.runAccelAmount * playerData.accelInAir
+        , playerData.runDeccelAmount * playerData.deccelInAir,
+        playerData.jumpHangTimeThreshold, playerData.jumpHangAccelerationMult, playerData.jumpHangMaxSpeedMult, playerData.doConserveMomentum, IsJumping || player.WallJumpState.IsWallJumping);
     }
 
     private void CheckJumping()

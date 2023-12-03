@@ -11,7 +11,7 @@ public class PlayerFireballState : PlayerAbilityState
     private bool fireballUsed;
 
     private Vector2 fireballDirection;
-    
+
     private bool fireballStopInput;
     private Vector2 fireballDirectionInput;
     //private float xInput;
@@ -46,9 +46,9 @@ public class PlayerFireballState : PlayerAbilityState
     {
         base.LogicUpdate();
 
-        if(!isExitingState)
+        if (!isExitingState)
         {
-            if(isHolding)
+            if (isHolding)
             {
                 player.Anim.speed = 0;
                 fireballStopInput = player.inputHandler.FireballStopInput;
@@ -57,14 +57,14 @@ public class PlayerFireballState : PlayerAbilityState
 
                 player.RotateAimPivot();
 
-                if(fireballDirectionInput != Vector2.zero)
+                if (fireballDirectionInput != Vector2.zero)
                 {
                     fireballDirection = fireballDirectionInput;
                 }
 
                 AimFacingDirection();
 
-                if(fireballStopInput || Time.unscaledTime >= startTime + playerData.maxHoldTime)
+                if (fireballStopInput || Time.unscaledTime >= startTime + playerData.maxHoldTime)
                 {
                     //按住(瞄準時間結束)
                     player.Anim.speed = 1;
@@ -76,25 +76,17 @@ public class PlayerFireballState : PlayerAbilityState
                     //trun
 
                 }
-
-                float angle = Mathf.Atan2(fireballDirection.y , fireballDirection.x) * Mathf.Rad2Deg;
-
-                if(player.RB.transform.localScale.x == -1)
-			        angle -= 90;
-                
-		        Quaternion rotation = Quaternion.AngleAxis(angle , Vector3.forward);
-		        player.AimPivot.rotation = rotation;
             }
             else
             {
-                if(!fireballUsed)
+                if (!fireballUsed)
                 {
                     player.FireProjectile();
                     fireballUsed = true;
                 }
                 //執行丟火球
                 //丟火球時間
-                if(Time.time >= startTime + playerData.fireballDuration)
+                if (Time.time >= startTime + playerData.fireballDuration)
                 {
                     isAbilityDone = true;
                     lastFireballTime = Time.time;
@@ -103,17 +95,18 @@ public class PlayerFireballState : PlayerAbilityState
             }
         }
     }
+    
 
     public override void PhysicsUpdate()
     {
         base.PhysicsUpdate();
 
-        if(isGrounded)
+        if (isGrounded)
         {
             player.GroundMove(1, xInput, playerData.runMaxSpeed, playerData.runAccelAmount, playerData.runDeccelAmount);
         }
         else
-            player.InAirMove(1, xInput, playerData.runMaxSpeed, playerData.runAccelAmount*playerData.accelInAir, playerData.runDeccelAmount*playerData.deccelInAir, playerData.jumpHangTimeThreshold, playerData.jumpHangAccelerationMult, playerData.jumpHangMaxSpeedMult, playerData.doConserveMomentum, false);
+            player.InAirMove(1, xInput, playerData.runMaxSpeed, playerData.runAccelAmount * playerData.accelInAir, playerData.runDeccelAmount * playerData.deccelInAir, playerData.jumpHangTimeThreshold, playerData.jumpHangAccelerationMult, playerData.jumpHangMaxSpeedMult, playerData.doConserveMomentum, false);
     }
 
     public bool CheckIfCanFireball()

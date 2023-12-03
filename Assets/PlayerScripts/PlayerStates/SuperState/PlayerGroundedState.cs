@@ -69,7 +69,7 @@ public class PlayerGroundedState : PlayerState
         }
         else if (meleeInput)
         {
-            if (yInput != -1)// on Groundand no Crouch
+            if (yInput != -1)// on Ground and no Crouch
             stateMachine.ChangeState(player.SlashState);
         }
         else if(DashInput&&yInput!=-1&&player.DashState.CheckIfCanDash())

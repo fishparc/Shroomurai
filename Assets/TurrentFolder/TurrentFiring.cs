@@ -17,7 +17,7 @@ public class TurrentFiring : MonoBehaviour
     public Transform shootpoint;
     Vector2 Direction;
     bool Detected = false;
-    float nextTimeToFire = 0;
+    //float nextTimeToFire = 0;
     // Start is called before the first frame update
     void Start()
     {

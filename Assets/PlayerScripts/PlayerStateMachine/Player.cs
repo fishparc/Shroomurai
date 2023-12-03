@@ -2,7 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.ProBuilder;
+using UnityEngine.UIElements;
 
 public class Player : MonoBehaviour
 {
@@ -31,6 +33,8 @@ public class Player : MonoBehaviour
 	#endregion
 
 	#region COMPONENTS
+	public SpriteRenderer m_SpriteRenderer { get; private set; }
+	public BoxCollider2D m_boxCollider2D { get; private set; }
 	public Animator Anim { get; private set; }
 	public PlayerInputHandler inputHandler { get; private set; }
 	public Rigidbody2D RB { get; private set; }
@@ -39,7 +43,7 @@ public class Player : MonoBehaviour
 	public Transform FirePoint;
 	public GameObject BulletPreFab;
 	public PushWind PushWind { get; private set; }
-
+	
 	#endregion
 
 	#region CHECK PARAMETERS
@@ -79,8 +83,11 @@ public class Player : MonoBehaviour
 
 	#region OTHER VARIABLES
 	public bool IsFacingRight { get; private set; }
-	public int FacingDirection {get; private set; }
+	public int FacingDirection { get; private set; }
 	public Vector2 CurrentVelocity { get; private set; }
+	int currentHealth;
+	int currentEnergy;
+	public float HealthPercentage;
 
 
 	#endregion
@@ -123,6 +130,12 @@ public class Player : MonoBehaviour
 		IsFacingRight = true;
 		FacingDirection = 1;
 		SetGravityScale(playerData.gravityScale);
+		m_SpriteRenderer = GetComponent<SpriteRenderer>();
+		m_boxCollider2D =GetComponent<BoxCollider2D>();
+		currentHealth = playerData.maxHealth;//FillHP
+        currentEnergy=playerData.maxEnergy;
+		HealthPercentage=currentHealth/playerData.maxHealth;
+		
 
 		//FireballDirectionIndicator = transform.Find("FireballDirectionIndicator");
 		AimPivot = transform.Find("AimPivot");
@@ -377,10 +390,16 @@ public class Player : MonoBehaviour
 		*/
 		RB.AddForce(movement * Vector2.right, ForceMode2D.Force);
 	}
+
 	public void CrouchIdleMove()
 	{
+		//m_boxCollider2D.size = new Vector2(m_boxCollider2D.size.x, m_boxCollider2D.size.y * 0.5f);
 		RB.velocity = new Vector2(0, RB.velocity.y);
 	}
+	/*public void CollidBoxRestore()
+	{
+		m_boxCollider2D.size = new Vector2(m_boxCollider2D.size.x, m_boxCollider2D.size.y *2f);
+	}*/
 
 	#endregion
 
@@ -633,11 +652,56 @@ public class Player : MonoBehaviour
 		}
         */
 	}
+
 	public void SetGravityScale(float scale)
 	{
 		RB.gravityScale = scale;
 	}
 
+	#endregion
+
+	#region HPandEnergy METHODS
+	public UnityEvent<Transform> OnTakeDamage;
+	public void TakeDamage(int damage)
+	{
+		if (!isInvincible)
+		{
+			currentHealth -= damage;
+			if(currentHealth<=0)
+			{
+				currentHealth=0;
+				Debug.Log("dying!");//die and respawn
+			}
+			SetInvincible();
+        HealthPercentage=currentHealth/playerData.maxHealth;
+
+		}
+		
+	}
+	public void TakeKnockBack(float PushStrength, Vector2 PushDir)
+	{
+		RB.AddForce(PushDir * PushStrength, ForceMode2D.Impulse);
+	}
+	public float invincibleTime = 3.0f;
+	bool isInvincible = false;
+
+	public void SetInvincible()
+	{
+		isInvincible = true;
+		m_SpriteRenderer.color = Color.red;
+		CancelInvoke("SetDamageable"); // in case the method has already been invoked
+		Invoke("SetDamageable", invincibleTime);
+	}
+
+	void SetDamageable()
+	{
+		m_SpriteRenderer.color = Color.white;
+		isInvincible = false;
+	}
+	public void Heal()
+	{
+		
+	}
 	#endregion
 
 	#region EDITOR METHODS
@@ -662,7 +726,8 @@ public class Player : MonoBehaviour
 	public void FireProjectile()
 	{
 		GameObject BulletIns = Instantiate(BulletPreFab, FirePoint.position, AimPivot.transform.rotation);
-		BulletIns.GetComponent<Rigidbody2D>().velocity = AimPivot.right * ProjectileSpeed;
+		BulletIns.GetComponent<Rigidbody2D>().velocity = AimPivot.right * ProjectileSpeed * FacingDirection;
+		BulletIns.transform.localScale *= FacingDirection;
 	}
 	public void SwingSneakStrike()
 	{
@@ -678,6 +743,7 @@ public class Player : MonoBehaviour
 		Collider2D[] hitEnemies = Physics2D.OverlapCircleAll(_slashPoint.position, _slashRadius, _enemyLayer);
 		foreach (Collider2D Enemy in hitEnemies)
 		{
+			if(Enemy.tag=="Enemy")
 			Debug.Log(Enemy.name);
 			//doDMG
 		}
@@ -689,7 +755,7 @@ public class Player : MonoBehaviour
 		float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
 
 		if (RB.transform.localScale.x == -1)
-			angle += 180;
+			angle -= 180;
 
 		Quaternion rotation = Quaternion.AngleAxis(angle, Vector3.forward);
 		AimPivot.rotation = rotation;
